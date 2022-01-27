@@ -519,6 +519,7 @@ a {
 
 .social-info {
   display: flex;
+  align-items: baseline;
 }
 
 /*buttons */
