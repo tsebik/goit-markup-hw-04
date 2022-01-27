@@ -413,14 +413,19 @@ a {
   width: 170px;
   height: 92px;
   background-color: #ffffff;
-  fill: #afb1b8;
+  color: #afb1b8;
   border: 1px solid #afb1b8;
   border-radius: 4px;
 }
 
-.clients-link:hover .clients-link-svg,
-.clients-link:focus .clients-link-svg {
-  fill: var(--accent-color);
+.clients-link-svg {
+  fill: currentColor;
+}
+
+.clients-link:hover,
+.clients-link:focus {
+  color: var(--accent-color);
+  border-color: var(--accent-color);
 }
 
 /* footer */
