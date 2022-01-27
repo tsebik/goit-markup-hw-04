@@ -562,13 +562,19 @@ a {
 }
 
 .img-projects {
-  flex-basis: calc(100% / 9 - 30px);
+  flex-basis: calc(100% / 3 - 30px);
   margin-left: 30px;
   margin-bottom: 30px;
-  border-bottom: 1px solid #eeeeee;
+  border: 1px 0 1px 1px solid #eeeeee;
   background: #ffffff;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.portfolio-img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .carts {
